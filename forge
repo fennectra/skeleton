@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+FENNEC_BASE_PATH="$SCRIPT_DIR" php "$SCRIPT_DIR/vendor/fennectra/framework/bin/cli" "$@"
