@@ -1,0 +1,30 @@
+# Environnement
+.env
+
+# Composer
+vendor/
+composer.phar
+composer-setup.php
+
+# PHPUnit
+.phpunit.cache/
+.phpunit.result.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cache & logs
+var/
+*.cache
+
+# Storage (fichiers uploades)
+/storage/
+/public/storage
+
+# OS
+.DS_Store
+Thumbs.db
